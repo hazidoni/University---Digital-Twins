@@ -9,9 +9,41 @@ The purpose of this project is to model hourly bicycle rental demand in Seoul an
 
 How do the hour of the day, temperature, humidity, rainfall, and wind speed affect bicycle rental demand?
 
-**What-if question:**
+## Possible What-If Scenarios
 
-What happens to the number of bicycle rentals when weather conditions change or the bike-sharing service is unavailable?
+The following scenarios describe possible questions that could be investigated using the system model.
+
+### Scenario 1: Rainy Day
+
+**Question:** How does bicycle rental demand change when rainfall increases?
+
+- Changed variable: Rainfall
+- Example: Increase rainfall by 5 mm.
+- Other conditions remain unchanged.
+
+### Scenario 2: Higher Temperature
+
+**Question:** How does bicycle rental demand change when the temperature increases?
+
+- Changed variable: Temperature
+- Example: Increase temperature by 5 °C.
+- Other conditions remain unchanged.
+
+### Scenario 3: Rush Hour vs Night
+
+**Question:** How does the hour of the day influence bicycle rental demand?
+
+- Changed variable: Hour
+- Example: Compare 08:00 and 23:00.
+- Weather conditions remain unchanged.
+
+### Scenario 4: Service Shutdown
+
+**Question:** What happens to completed bicycle rentals when the service is unavailable?
+
+- Changed variable: Functioning Day (Control)
+- Example: Change the service status from 1 to 0.
+- Expected result: Completed rentals become zero.
 
 **Potential decision:**
 

@@ -58,3 +58,6 @@ The notebook plots measured and simulated rentals together for the same test-wee
 3. **Next-step prediction:** In a future dynamic model, use the newest observation to update estimated demand and calculate the next hour using updated state and expected weather inputs.
 
 **Limitation:** Completed rentals are not identical to latent demand. During a service shutdown, observed rentals are zero even if potential demand exists.
+
+<img width="1681" height="690" alt="Képernyőkép 2026-10-29 141748" src="https://github.com/user-attachments/assets/621334bd-b32f-48e1-a9e8-972fa9d4bb8b" />
+

@@ -121,7 +121,3 @@ Secondary user: **Bicycle Rental Customer**. A person who wants to rent a bicycl
 - Comparison chart.
 
 **Objective:** Help the operations manager understand how different weather scenarios might influence bicycle rental demand and support operational planning.
-
-**Priority:** Medium
-
-**Complexity:** Easy–Medium
